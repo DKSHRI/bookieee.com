@@ -144,7 +144,7 @@ footer {
 .contact-info a:hover {
     text-decoration: underline;
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 850px) {
     .logo {
         width: 20%;
     }
@@ -158,6 +158,14 @@ footer {
         padding: 8px 16px;
     }
 
+    .mid {
+        gap: 20px;
+        position: relative;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+}
     .mid {
         grid-template-columns: repeat(3, 1fr);
     }
