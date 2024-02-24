@@ -12,7 +12,7 @@
     width: 100%;
    
     grid-area: nav;
-    position: fixed;
+   position: relative;
   background-color: black;
   display: flex;
   flex-direction: row;
